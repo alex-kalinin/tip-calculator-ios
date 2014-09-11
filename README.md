@@ -1,7 +1,7 @@
 Tip Calculator
 ========================================
 
-Hours to complete: 1.5.
+Time spent: 2 hours total.
 
 Completed user stories:
 * [x] Required: A basic tip calculator per video walkthrough at https://vimeo.com/74764846.
