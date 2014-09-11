@@ -21,8 +21,8 @@
 		A157078B19BFCF9C00ADF55B /* TipCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A157078A19BFCF9C00ADF55B /* TipCalculatorTests.m */; };
 		A157079719BFD07300ADF55B /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A157079519BFD07300ADF55B /* TipViewController.m */; };
 		A157079819BFD07300ADF55B /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A157079619BFD07300ADF55B /* TipViewController.xib */; };
-		A1A2119819C0AD0D002109DA /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A2119619C0AD0D002109DA /* SettingsViewController.m */; };
-		A1A2119919C0AD0D002109DA /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1A2119719C0AD0D002109DA /* SettingsViewController.xib */; };
+		A1A211A119C13BDD002109DA /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A2119F19C13BDD002109DA /* SettingsViewController.m */; };
+		A1A211A219C13BDD002109DA /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1A211A019C13BDD002109DA /* SettingsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,9 +55,9 @@
 		A157079419BFD07300ADF55B /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
 		A157079519BFD07300ADF55B /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
 		A157079619BFD07300ADF55B /* TipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipViewController.xib; sourceTree = "<group>"; };
-		A1A2119519C0AD0D002109DA /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ../SettingsViewController.h; sourceTree = "<group>"; };
-		A1A2119619C0AD0D002109DA /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ../SettingsViewController.m; sourceTree = "<group>"; };
-		A1A2119719C0AD0D002109DA /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = ../SettingsViewController.xib; sourceTree = "<group>"; };
+		A1A2119E19C13BDD002109DA /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		A1A2119F19C13BDD002109DA /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		A1A211A019C13BDD002109DA /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +117,9 @@
 		A157076B19BFCF9C00ADF55B /* TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				A1A2119519C0AD0D002109DA /* SettingsViewController.h */,
-				A1A2119619C0AD0D002109DA /* SettingsViewController.m */,
-				A1A2119719C0AD0D002109DA /* SettingsViewController.xib */,
+				A1A2119E19C13BDD002109DA /* SettingsViewController.h */,
+				A1A2119F19C13BDD002109DA /* SettingsViewController.m */,
+				A1A211A019C13BDD002109DA /* SettingsViewController.xib */,
 				A157077419BFCF9C00ADF55B /* AppDelegate.h */,
 				A157077519BFCF9C00ADF55B /* AppDelegate.m */,
 				A157077719BFCF9C00ADF55B /* Images.xcassets */,
@@ -238,7 +238,7 @@
 				A157079819BFD07300ADF55B /* TipViewController.xib in Resources */,
 				A157077019BFCF9C00ADF55B /* InfoPlist.strings in Resources */,
 				A157077819BFCF9C00ADF55B /* Images.xcassets in Resources */,
-				A1A2119919C0AD0D002109DA /* SettingsViewController.xib in Resources */,
+				A1A211A219C13BDD002109DA /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +260,7 @@
 				A157077619BFCF9C00ADF55B /* AppDelegate.m in Sources */,
 				A157079719BFD07300ADF55B /* TipViewController.m in Sources */,
 				A157077219BFCF9C00ADF55B /* main.m in Sources */,
-				A1A2119819C0AD0D002109DA /* SettingsViewController.m in Sources */,
+				A1A211A119C13BDD002109DA /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
