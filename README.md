@@ -11,5 +11,5 @@ Completed user stories:
 
 ### Notes
 
-The Settings page only displays the tip amount because the app automatically stores the last selected tip amount as a default value. So, having the same UI in the Settings page is redundant.
+The Settings page only displays the tip amount because the app automatically stores the last selected tip amount as a default value. The same UI in the Settings view would be redundant.
 
